@@ -1,0 +1,19 @@
+.body-container {
+  padding: 0 30px;
+}
+
+.toggle {
+  box-shadow: 0 0 black !important;
+  padding: 0 5px !important;
+  font-size: 12px !important;
+}
+
+.toggle:focus {
+  box-shadow: 0 0 black !important;
+}
+
+.btn-group.btn-group-toggle {
+  padding: 0 30px;
+  top: 30px;
+  z-index: 2;
+}

@@ -1,0 +1,41 @@
+var mongoose = require('mongoose');
+
+var canadaSchema = new mongoose.Schema({
+    pruid: Number,
+    prname: String,
+    prnameFR: String,
+    date: Date,
+    numconf: Number,
+    numprob: Number,
+    numdeaths: Number,
+    numtotal: Number,
+    numtested: Number,
+    numrecover: Number,
+    percentrecover: Number,
+    ratetested: Number,
+    numtoday: Number,
+    percentoday: Number,
+    ratetotal: Number,
+    ratedeaths: Number,
+    numdeathstoday: Number,
+    percentdeath: Number,
+    numtestedtoday: Number,
+    numrecoveredtoday: Number,
+    percentactive: Number,
+    numactive: Number,
+    rateactive: Number,
+    numtotal_last14: Number,
+    ratetotal_last14: Number,
+    numdeaths_last14: Number,
+    ratedeaths_last14: Number,
+    numtotal_last7: Number,
+    ratetotal_last7: Number,
+    numdeaths_last7: Number,
+    ratedeaths_last7: Number,
+    avgtotal_last7: Number,
+    avgincidence_last7: Number,
+    avgdeaths_last7: Number,
+    avgratedeaths_last7: Number
+})
+
+module.exports = mongoose.model('canadaCases', canadaSchema);
