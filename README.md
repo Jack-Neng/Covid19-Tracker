@@ -27,10 +27,10 @@ Followings are some picture of the project
 
 ### Map and Chart View of the Covid-19 Cases in Canada
 
-<img src="img/canada1.png">
-<img src="img/canada2.png">
+<img src="img/canada1.PNG">
+<img src="img/canada2.PNG">
 
 ### Map and Chart View of the Covid-19 Cases Worldwide
 
-<img src="img/global1.png">
-<img src="img/global2.png">
+<img src="img/global1.PNG">
+<img src="img/global2.PNG">
